@@ -1,0 +1,268 @@
+.search {
+  height: 140px;
+  background-color: #fff;
+}
+
+.search .search_logo {
+  position: absolute;
+  left: 0;
+  top: 10px;
+  width: 362px;
+  height: 60px;
+  background-color: #fff;
+  padding: 20px 0px;
+  box-sizing: border-box;
+}
+
+.search .search_logo img {
+  width: 134px;
+  height: 42px;
+}
+
+.search .search_logo > .search_extra {
+  position: absolute;
+  top: 15px;
+  left: 168px;
+  width: 180px;
+  height: 70px;
+  padding-left: 10px;
+  background: #fff;
+}
+
+.search .search_logo > .search_extra > .extra_mini {
+  float: left;
+  color: #666;
+  font-size: 12px;
+  font-weight: 400;
+  position: relative;
+  padding-top: 22px;
+  height: 27px;
+  font-family: simsun;
+}
+
+.search .search_logo > .search_extra > .extra_mini > .mini_m {
+  color: #ccc;
+  position: relative;
+  width: 63px;
+  height: 25px;
+  border: 1px solid #ccc;
+  line-height: 25px;
+  z-index: 1;
+  background: #fff;
+  padding: 0 5px;
+}
+
+.search .search_logo > .search_extra > .extra_mini > .mini_m > h2 {
+  font-family: "Microsoft YaHei";
+  color: #666;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.search .search_logo > .search_extra > .extra_mini > .mini_m > h2 > a {
+  color: #666;
+  text-decoration: none;
+}
+
+.search .search_logo > .search_extra > .extra_mini > .mini_m > h2 > a > i {
+  top: -1px;
+  right: 3px;
+  height: 7px;
+  font-size: 12px;
+  color: #6A6A6A;
+  display: block;
+  position: absolute;
+  transition: 0.2s;
+}
+
+.search .search_logo > .search_extra > .extra_mini > .mini_m > .mini_blo {
+  width: 152px;
+  height: 500px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  position: absolute;
+  top: 27px;
+  left: -1px;
+  margin-top: -1px;
+  padding: 100px 1px;
+  display: none;
+}
+
+.search .search_logo > .search_extra > .extra_mini > .mini_m > .mini_blo > img {
+  width: 150px;
+  height: 150px;
+}
+
+.search .search_logo > .search_extra > .extra_mini:hover a {
+  color: #e1251b;
+}
+
+.search .search_logo > .search_extra > .extra_mini:hover i {
+  transform: rotateX(-160deg) translateY(-20px);
+}
+
+.search .search_logo > .search_extra > .extra_mini:hover .mini_blo {
+  display: block;
+}
+
+.search .search_logo > .search_extra > .extra_mini:hover .mini_m {
+  border-bottom: none;
+}
+
+.search .search_frame {
+  position: relative;
+  height: 60px;
+  transform: translateX(127px);
+}
+
+.search .search_frame > .search_input {
+  position: absolute;
+  left: 260px;
+  top: 25px;
+  width: 546px;
+  height: 32px;
+  border: 2px solid #B61D1D;
+  border-width: 2px 0px 2px 2px;
+  background: #fff;
+}
+
+.search .search_frame > .search_input > input {
+  padding: 2px 44px 2px 17px;
+  width: 425px;
+  height: 26px;
+  border: 1px solid transparent;
+  line-height: 26px;
+  font-size: 12px;
+  color: #333;
+  outline: none;
+}
+
+.search .search_frame > .search_input > button:nth-of-type(1) {
+  width: 58px;
+  height: 32px;
+  line-height: 32px;
+  border: none;
+  font-size: 12px;
+  color: #fff;
+  cursor: pointer;
+  position: absolute;
+  top: 0px;
+  left: 430px;
+  background: #B61D1D;
+}
+
+.search .search_frame > .search_input > button:nth-of-type(2) {
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  border-radius: 0;
+  width: 58px;
+  height: 32px;
+  line-height: 32px;
+  border: none;
+  background: #474e5c;
+  font-size: 12px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.search .search_frame > .search_myshop {
+  width: 132px;
+  height: 36px;
+  position: absolute;
+  right: 230px;
+  top: 25px;
+  border: 1px solid #DFDFDF;
+  background-color: #F9F9F9;
+  line-height: 36px;
+}
+
+.search .search_frame > .search_myshop > .icon-gouwuche {
+  color: #e1251b;
+  margin: 0px 13px;
+  font-size: 16px;
+}
+
+.search .search_frame > .search_myshop > a {
+  font-size: 12px;
+  color: #666;
+  text-decoration: none;
+}
+
+.search .search_frame > .search_myshop > .search_amount {
+  position: absolute;
+  top: -3px;
+  left: 106px;
+  right: auto;
+  display: inline-block;
+  padding: 1px 3px;
+  font-size: 12px;
+  line-height: 12px;
+  color: #fff;
+  background-color: #e1251b;
+  border-radius: 7px;
+  min-width: 12px;
+  text-align: center;
+}
+
+.search .search_frame > .search_myshop > .myshop_blo {
+  position: absolute;
+  top: 36px;
+  left: -181px;
+  width: 312px;
+  height: 69px;
+  border-top: none;
+  border: 1px solid #ddd;
+  background-color: #fff;
+  box-shadow: 0 0 5px #ddd;
+  z-index: 2;
+  display: none;
+  text-align: center;
+}
+
+.search .search_frame > .search_myshop > .myshop_blo img {
+  margin-top: 4.5px;
+  width: 60px;
+  height: 60px;
+}
+
+.search .search_frame > .search_myshop:hover {
+  background-color: #fff;
+  border-bottom: none;
+  border: 1px solid #ddd;
+  box-shadow: 0 0 5px #ddd;
+}
+
+.search .search_frame > .search_myshop:hover .myshop_blo {
+  display: block;
+}
+
+.search .search_frame > .search_myshop:hover a {
+  color: #e1251b;
+}
+
+.search .search_hot {
+  position: absolute;
+  left: 260px;
+  top: 65px;
+  width: 550px;
+  height: 20px;
+  line-height: 20px;
+  transform: translateX(127px);
+}
+
+.search .search_hot > a {
+  float: left;
+  margin-right: 10px;
+  text-decoration: none;
+  color: #999;
+  font-size: 12px;
+}
+
+.search .search_hot > a:hover {
+  color: #e1251b;
+}
+
+.search .search_hot > .search_stylred {
+  color: #e1251b;
+}

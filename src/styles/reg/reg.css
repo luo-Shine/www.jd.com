@@ -1,0 +1,172 @@
+@charset "UTF-8";
+/* 重置样式表 */
+/* 清除内外间距 */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* 去掉b strong加粗 */
+b, strong {
+  font-weight: normal;
+}
+
+/* 去掉i em倾斜 */
+i, em {
+  font-style: none;
+}
+
+/* 去掉li的项目符号 */
+li {
+  list-style: none;
+}
+
+/* 去掉a u s del的修饰线 
+a,u,s,del{
+text-decoration: none;
+}
+/* 万能清除法 */
+.clearfix:after {
+  content: "";
+  display: block;
+  height: 0;
+  overflow: hidden;
+  visibility: hidden;
+  clear: both;
+}
+
+/* 版心 */
+.wrapper {
+  width: 1200px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.head {
+  height: 80px;
+  width: 100%;
+}
+
+.head_logo {
+  width: 300px;
+  margin: 10px 0;
+  height: 60px;
+  float: left;
+}
+
+.head_logo > i {
+  display: block;
+  width: 110px;
+  height: 40px;
+  position: absolute;
+  left: 188px;
+  top: 31px;
+  background-image: url(../../img/jd_login2.png);
+}
+
+.head_survey {
+  position: relative;
+  color: #999;
+  float: right;
+  top: 52px;
+  font-size: 16px;
+}
+
+.head_survey > a {
+  text-decoration: none;
+  color: red;
+}
+
+.head_survey > a:hover {
+  text-decoration: underline;
+  color: #cb2a2d;
+}
+
+.reg {
+  margin: 50px auto 186px;
+  width: 400px;
+}
+
+.reg > .reg_form .item {
+  border: solid 1px;
+  border-color: #999999;
+  width: 398px;
+  height: 52px;
+}
+
+.reg > .reg_form .item > label {
+  font-size: 14px;
+  color: #666;
+  float: left;
+  width: 87px;
+  height: 50px;
+  line-height: 50px;
+  padding-left: 20px;
+}
+
+.reg > .reg_form .item > input {
+  border: 0;
+  font-size: 12px;
+  width: 190px;
+  height: 19px;
+  padding: 16px 0px 11px 20px;
+  outline: none;
+}
+
+.reg > .reg_form .item > input::-webkit-input-placeholder {
+  color: #ccc;
+}
+
+.reg > .reg_form .reg_tip {
+  color: #c5c5c5;
+  height: 27px;
+  font-size: 12px;
+  padding-top: 5px;
+}
+
+.reg > .reg_form .reg_togo > button {
+  width: 100%;
+  height: 54px;
+  line-height: 54px;
+  text-align: center;
+  color: #fff;
+  background: #e2231a;
+  border: 0;
+  font-size: 16px;
+  font-family: "Microsoft YaHei","Hiragino Sans GB";
+  cursor: pointer;
+}
+
+.footer {
+  width: 990px;
+  margin: 0 auto;
+  padding-top: 30px;
+  border-top: 1px solid #ccc;
+}
+
+.footer > .footer_box {
+  padding-bottom: 30px;
+  text-align: center;
+}
+
+.footer > .footer_box > .footer_links {
+  font-size: 12px;
+  color: #666;
+}
+
+.footer > .footer_box > .footer_links > a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #666;
+}
+
+.footer > .footer_box > .footer_links > a:hover {
+  text-decoration: underline;
+  color: #cb2a2d;
+}
+
+.footer > .footer_box > .footer_copy {
+  font-size: 12px;
+  color: #333;
+  margin: 10px 0;
+}
