@@ -328,9 +328,225 @@
 
 .goods .goods_tbody {
   margin-bottom: 20px;
-  border: 1px solid #e9e9e9;
-  border-top: 3px solid #ccc;
-  height: 189px;
+  height: 152px;
+}
+
+.goods .goods_tbody > .goods_shop {
+  height: 30px;
+  line-height: 30px;
+  padding-left: 11px;
+}
+
+.goods .goods_tbody > .goods_shop > .goods_checkbox {
+  float: left;
+  margin-right: 15px;
+}
+
+.goods .goods_tbody > .goods_shop > .shop_text {
+  float: left;
+  width: 42%;
+}
+
+.goods .goods_tbody > .goods_shop > .shop_text > a {
+  max-width: 260px;
+  height: 30px;
+  line-height: 30px;
+  font-weight: 700;
+  text-decoration: none;
+  color: #666;
+  display: inline-block;
+  font-size: 12px;
+}
+
+.goods .goods_tbody > .goods_shop > .shop_text > i {
+  cursor: pointer;
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+  background: url(../../img/jd_shopping7.png) no-repeat;
+}
+
+.goods .goods_tbody > .goods_item {
+  border: 1px solid #f1f1f1;
+  border-top: 2px solid #aaa;
+  background: #fff;
+  height: 119px;
+}
+
+.goods .goods_tbody > .goods_item > .item_list {
+  position: relative;
+  border-top: 1px solid #c5c5c5;
+  line-height: 20px;
+  background: #fff;
+  padding: 0 0 1px 40px;
+  clear: both;
+}
+
+.goods .goods_tbody > .goods_item > .item_list > .item_form > .p-checkbox {
+  width: 30px;
+  min-height: 10px;
+  margin-left: 10px;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.goods .goods_tbody > .goods_item > .item_list > .item_form > .p-checkbox > div {
+  float: left;
+  margin-right: 5px;
+}
+
+.goods .goods_tbody > .goods_item > .item_list > .item_form > .cell {
+  float: left;
+  padding: 15px 0 10px;
+}
+
+.goods .goods_tbody > .goods_item > .item_list > .item_form > .p-goods {
+  width: 300px;
+}
+
+.goods .goods_tbody > .goods_item > .item_list > .item_form > .p-goods > .p-goods-ite {
+  height: 60px;
+}
+
+.goods .goods_tbody > .goods_item > .item_list > .item_form > .p-goods > .p-goods-ite > .p-img {
+  position: relative;
+  float: left;
+  width: 80px;
+  height: 80px;
+  border: 1px solid #eee;
+  margin-right: 10px;
+  background: #fff;
+  padding: 0;
+  text-align: center;
+  overflow: visible;
+}
+
+.goods .goods_tbody > .goods_item > .item_list > .item_form > .p-goods > .p-goods-ite > .p-img img {
+  width: 80px;
+  height: 80px;
+}
+
+.goods .goods_tbody > .goods_item > .item_list > .item_form > .p-goods > .p-goods-ite > .p-msg > .p-name {
+  height: 40px;
+  line-height: 20px;
+}
+
+.goods .goods_tbody > .goods_item > .item_list > .item_form > .p-goods > .p-goods-ite > .p-msg > .p-name > a {
+  text-decoration: none;
+  font-size: 12px;
+  color: #333;
+}
+
+.goods .goods_tbody > .goods_item > .item_list > .item_form > .p-goods > .p-goods-ite > .p-msg > .p-name a:hover {
+  color: #e2231a;
+}
+
+.goods .goods_tbody > .goods_item > .item_list > .item_form > .p-goods > .p-goods-ite > .p-msg > .p-extend > img {
+  transform: translate(53px, 38px);
+}
+
+.goods .goods_tbody > .goods_item > .item_list > .item_form > .p-props {
+  width: 130px;
+  min-height: 10px;
+  line-height: 20px;
+  overflow: hidden;
+  padding: 15px 0 0 20px;
+}
+
+.goods .goods_tbody > .goods_item > .item_list > .item_form > .p-props > .props_txt {
+  width: 130px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  cursor: default;
+  font-size: 12px;
+  color: #434343;
+}
+
+.goods .goods_tbody > .goods_item > .item_list > .item_form > .p-price {
+  position: relative;
+  width: 150px;
+  padding-right: 40px;
+  text-align: right;
+  outline: none;
+  transform: translate(110px, 0px);
+}
+
+.goods .goods_tbody > .goods_item > .item_list > .item_form > .p-price > span {
+  font-size: 12px;
+  color: #434343;
+}
+
+.goods .goods_tbody > .goods_item > .item_list > .item_form > .p-quantity {
+  width: 84px;
+  transform: translate(140px, -20px);
+}
+
+.goods .goods_tbody > .goods_item > .item_list > .item_form > .p-quantity > .cart_number {
+  width: 80px;
+  border: 0;
+}
+
+.goods .goods_tbody > .goods_item > .item_list > .item_form > .p-quantity > .cart_number > button {
+  border-width: 1px;
+  background: #f1f1f1;
+  width: 17px;
+  height: 20px;
+  line-height: 16px;
+  border: 1px solid #cbcbcb;
+  cursor: pointer;
+}
+
+.goods .goods_tbody > .goods_item > .item_list > .item_form > .p-quantity > .cart_number > .cart_input input {
+  position: static;
+  float: left;
+  outline: 0;
+  text-align: center;
+  box-sizing: border-box;
+  height: 20px;
+  color: #232326;
+  border: 1px solid #cbcbcb;
+  background: #fff;
+  line-height: 18px;
+  vertical-align: middle;
+  padding: 0;
+  border-width: 1px 0;
+  width: 46px;
+}
+
+.goods .goods_tbody > .goods_item > .item_list > .item_form > .p-quantity > .cart_number > .cart_dec {
+  transform: translate(-16px, 20px);
+}
+
+.goods .goods_tbody > .goods_item > .item_list > .item_form > .p-quantity > .cart_number > .cart_int {
+  transform: translate(0px, -2px);
+}
+
+.goods .goods_tbody > .goods_item > .item_list > .item_form > .p-sum {
+  width: 100px;
+  padding-right: 40px;
+  text-align: right;
+  font-family: verdana;
+  font-size: 12px;
+  font-weight: 700;
+  transform: translate(162px, 0px);
+}
+
+.goods .goods_tbody > .goods_item > .item_list > .item_form > .p-ops {
+  width: 75px;
+  transform: translate(150px, 0px);
+}
+
+.goods .goods_tbody > .goods_item > .item_list > .item_form > .p-ops > a {
+  text-decoration: none;
+  font-size: 12px;
+  color: #666;
+  display: block;
+}
+
+.goods .goods_tbody > .goods_item > .item_list > .item_form > .p-ops a:hover {
+  color: #e2231a;
 }
 
 .goods .goods_money {

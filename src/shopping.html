@@ -5,8 +5,10 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>JD_shopping</title>
+  <link rel="shortcut icon" href="#">
   <link rel="stylesheet" href="./styles/shopping/shop.css">
   <link rel="stylesheet" href="./styles/font_icon/iconfont.css">
+  <script src="./js/shopping/shop.js" type="module"></script>
 </head>
 <body>
   <div class="head">
@@ -103,7 +105,8 @@
         <div class="cloumn thead5">小计</div>
         <div class="cloumn thead6">操作</div>
       </div>
-      <div class="goods_tbody"></div>
+     <div class="goods_shops">
+     </div>
       <div class="goods_money">
         <div class="money_left">
           <div class="money_check">
@@ -117,12 +120,12 @@
         </div>
         <div class="money_right">
           <div class="money_area">
-            <a href="#">去结算</a>
+            <a href="#none" id="money_countall">去结算</a>
           </div>
           <div class="money_sum">
             <div class="money_price">
               <span>总价</span>
-              <span>￥0.00</span>
+              <span>￥<i class="countall">0.00</i></span>
               <b></b>
             </div>
             <div class="money_amount">
